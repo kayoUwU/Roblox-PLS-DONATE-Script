@@ -8,7 +8,7 @@
 
 ----- configuração 
 
-local tempo_delay = 5 -- segundos
+local tempo_delay = 150 -- segundos
 local rand = math.random(7)
 local status = "desligado"
 
