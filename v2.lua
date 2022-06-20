@@ -1,17 +1,4 @@
 
-
-msg = {
-    "s", -- mensagem 1
-    "d", -- mensagem 2
-    "e", -- mensagem 3
-    "f", -- mensagem 4
-    "g", -- mensagem 5
-    "h", -- mensagem 6
-    "z"  -- mensagem 7
-}
-
-
-
 local gui = Instance.new("ScreenGui")
 local gui_frame = Instance.new("Frame")
 local botao = Instance.new("TextButton")
