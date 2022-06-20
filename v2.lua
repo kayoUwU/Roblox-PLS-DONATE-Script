@@ -102,7 +102,7 @@ while( true )
 do
     wait(1)
     if status == true then 
-        wait(tempo_delay) 
+        wait(100) 
         local mensagem = randomizar_msg(msg)
         game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer(mensagem, "All")
         print("mensagem enviada com sucesso: "..mensagem)
